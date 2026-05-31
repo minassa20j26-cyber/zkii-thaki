@@ -1,4 +1,4 @@
-jsximport React from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { Analytics } from '@vercel/analytics/react'
 import App from './zakii-thakii-final-1'
