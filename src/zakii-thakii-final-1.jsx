@@ -383,7 +383,17 @@ export default function ZakiThakii() {
             </div>
           </div>
 
-          {/* Actions */}
+         
+           {/* Lesson 1 Button */}
+<div style={{textAlign:"center", marginBottom:16}}>
+  <button
+    onClick={onStartLesson}
+    style={{background:`linear-gradient(135deg,${C.gold},${C.green})`, border:"none", borderRadius:18, padding:"16px 40px", fontSize:18, fontWeight:800, color:"#fff", cursor:"pointer", width:"100%", boxShadow:"0 4px 20px rgba(0,0,0,0.15)"}}>
+    <span style={{fontSize:28}}>🎓 </span>
+    <span>ابدأ الدرس الأول — ما هو الذكاء الاصطناعي ؟</span>
+  </button>
+</div>
+
           <div style={S.actionsGrid}>
             <button style={{...S.actionBtn, background:`linear-gradient(135deg,${C.blue2},${C.dark})`}} onClick={startChal}>
               <span style={{fontSize:36}}>🎯</span>
